@@ -1,1 +1,3 @@
 # ilk_denemelerim
+
+Bu benim aylar önce başlayan yazılım serüvenimdeki ilk adımlarım...
