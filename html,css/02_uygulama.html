@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div p {
+            font-size: 35px;
+            margin: 0px;
+            padding: 25px;
+            
+        }
+
+        .div_p {
+            background-color: darkslateblue;
+            /* background-image: url('h1.jpeg'); */
+            /* background-position: center right; */
+            height: 500px;
+
+        }
+
+        .div_a {
+            background-color:tomato ;
+            border: 0;
+            padding: 15px;
+
+        }
+
+        #baş_link {
+            font-size: 35px;
+            
+        }
+
+        .hmc_a { /* bu ul yi kapsayan */
+            padding: 0px;
+        }
+
+        .div_p_h { /* how it works */
+            background-color: white;
+            text-align: center;
+            padding: 0px;
+            padding-bottom: 10px;
+            padding-top: 25px;
+        }
+
+        a:visited {
+            color: white;
+        }
+
+        a:hover {
+            color: darkslateblue;
+            background-color: white;
+            transition: .6s
+            
+            ;
+        }
+
+        li {
+            display: inline-block;
+            
+        }
+
+        a {
+            color: white;
+            font-size: 25px;
+            padding: 15px;
+            margin: 5px;
+            text-decoration: none;
+            border: 5px solid black ;
+            background-color: darkslateblue;
+            border-radius: 45px;
+            
+        }
+
+        table {
+            width: 300px;
+            display: inline-block;
+            width: 30%;
+        }
+
+        th {
+            font-size: large;
+        }
+
+        td li {
+            text-align: center;
+            font-size: large;
+        }
+
+
+
+        .ikinci_div {
+            display: inline-block;
+            width: 49%;
+            vertical-align: top;
+            box-shadow: 15px 5px;
+        }
+
+        #fotoraf_divi {
+            background-image: url(h3.jpeg);
+            background-position: center;
+            background-size: cover;
+            height: 160px;
+        }
+        
+        #ikincinin_yazı_divi {
+            background-color: grey;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .ikinci_div h3 {
+            font-size: 25px;
+            padding-left: 25px;
+        }
+
+        a:focus {
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="div_a" >
+        <ul class="hmc_a" >
+            <li><a href="" id="baş_link">Movie App</a></li>
+            <li style="float: right;" ><a href="" >Home</a></li>
+            <li style="float: right;" ><a href="">Movies</a></li>
+            <li style="float: right;" ><a href="">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="div_p" >
+        <p><b>Welcome to Movie App</b></p>
+    </div>
+
+    <div style="background-color: tomato; height: 500px; " >
+        <p class="div_p_h" ><b>How it Works ?</b></p>
+        <p style="font-size: medium; text-align: center; background-color: white; padding-top: 0px; " >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque numquam quis odio eaque, provident</p>
+    
+
+        <div>
+            <ul>
+                <table>
+                    <thead>
+                        <th>
+                            <li>Register</li>
+                        </th>
+                        <tr>
+                            <td>
+                                <li>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi ex excepturi vel placeat natus ipsum.
+                                </li>
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+                <table>
+                    <thead>
+                        <th>
+                            <li>Choose a Plan</li>
+                        </th>
+                        <tr>
+                            <td>
+                                <li>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi ex excepturi vel placeat natus ipsum.
+                                </li>
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+                <table>
+                    <thead>
+                        <th>
+                            <li>Enjoy Movify</li>
+                        </th>
+                        <tr>
+                            <td>
+                                <li>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi ex excepturi vel placeat natus ipsum.
+                                </li>
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+            </ul>
+        </div>
+
+
+
+        <div class="ikinci_div" id="fotoraf_divi" >
+            <p></p>
+
+        </div>
+        <div class="ikinci_div" id="ikincinin_yazı_divi" >
+            <h3>Watch all Movies TV Shows once they get released</h3>
+            <p style="font-size: small; padding-top: 0; " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex suscipit, magni est inventore fugit at recusandae libero ut odit natus praesentium ea vitae id labore sed, molestiae alias commodi!</p>
+            <a href="">View Features</a>
+        </div>
+
+    </div>
+
+
+    
+    
+</body>
+</html>

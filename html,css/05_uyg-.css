@@ -1,0 +1,127 @@
+div p {
+    font-size: 35px;
+    margin: 0px;
+    padding: 25px;
+    
+}
+
+.div_p {
+    background-color: darkslateblue;
+    /* background-image: url('h1.jpeg'); */
+    /* background-position: center right; */
+    height: 500px;
+    top: 500px;
+    width: 100%;
+
+}
+
+.div_a {
+    background-color:tomato ;
+    border: 0;
+    padding: 15px;
+    position:sticky;    
+    width: 100%;
+    top: 0;
+}
+
+#baş_link {
+    font-size: 35px;
+    
+}
+
+.hmc_a { /* bu ul yi kapsayan */
+    padding: 0px;
+}
+
+.div_p_h { /* how it works */
+    background-color: white;
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: darkslateblue;
+    background-color: white;
+    transition: .6s
+    
+    ;
+}
+
+li {
+    display: inline-block;
+    
+}
+
+a {
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    margin: 5px;
+    text-decoration: none;
+    border: 5px solid black ;
+    background-color: darkslateblue;
+    border-radius: 45px;
+    
+}
+
+table {
+    width: 300px;
+    display: inline-block;
+    width: 30%;
+}
+
+th {
+    font-size: large;
+}
+
+td li {
+    text-align: center;
+    font-size: large;
+}
+
+
+
+.ikinci_div {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    box-shadow: 15px 5px;
+}
+
+#fotoraf_divi {
+    background-image: url(h3.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+}
+
+#ikincinin_yazı_divi {
+    background-color: grey;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.ikinci_div h3 {
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+a:focus {
+    background-color: blue;
+}
+
+.div_p p {
+    margin-top: 100px;
+}
+
+body {
+    margin: 0;
+}

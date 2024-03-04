@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .HEADER_DİV {
+            background-color: gray;
+        }
+
+        .HEADER_DİV_UL {
+            display: inline-block;
+            
+        }
+
+        .HEADER_DİV_UL_Lİ {
+            list-style-type: none;
+            display: inline-block;
+            
+        }
+
+        .HEADER_DİV_UL_Lİ a {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            padding: 10px;
+            margin-right: 20px;
+            color: white;
+            border-radius: 15px;
+        }
+
+        .HEADER_DİV_UL_Lİ a:hover {
+            background-color: rgba(59, 59, 59, 0.01) ;
+            transition: 0.6s;
+            box-shadow: 0px 7px 29px 0px rgba(18, 18, 20, 0.322) ;
+            border-radius: 15px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="HEADER_DİV " >
+            <ul class="HEADER_DİV_UL" >
+                <li class="HEADER_DİV_UL_Lİ" ><a href="http://127.0.0.1:5000">Ana Sayfa</a></li>
+            </ul>
+
+            <ul class="HEADER_DİV_UL" style="float: right;" >
+                <li class="HEADER_DİV_UL_Lİ" ><a href="">sepetim</a></li>
+                <li class="HEADER_DİV_UL_Lİ" ><a href="">favoriler</a></li>
+                <li class="HEADER_DİV_UL_Lİ" ><a href="/login">giriş yap</a></li>
+                
+            </ul>
+            
+        </div>
+    </header>
+
+    <nav>
+        {% block nav_login %}
+
+        {% endblock nav_login %}
+
+        {% block nav_main %}
+
+        
+        {% endblock nav_main %}
+
+
+
+    </nav>
+
+
+
+
+</body>
+</html>

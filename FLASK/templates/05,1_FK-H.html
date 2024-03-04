@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGİN</title>    
+    <style>
+
+    </style>
+</head>
+<body>
+    {% extends "05_FK-H.html" %}
+
+    {% block nav_login %}
+
+        <form action="" method="post">
+            <p>isminizi giriniz: <input type="text" name="isim" > </p>
+
+            <p>email: <input type="text"> </p>
+
+            <p>tel no: <input type="text">  </p>
+            
+            <button type="submit" value="gönder">kayıt ol</button>
+
+
+
+        </form>
+
+    {% endblock nav_login %}
+
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    {% extends "04,1_FK-H.html" %}
+
+
+    {% block body %}
+        <h3>Kayıt İşlemi</h3>
+        <hr>
+    {% endblock body %}
+
+
+
+
+    {% block kayit %}
+
+    <form method=post>
+
+        {% from "_formhelpers.html" import render_field %}
+        {{ render_field(form.name, class="form-control" ) }}
+        {{ render_field(form.username, class="form-control" ) }}
+        {{ render_field(form.email, class="form-control" ) }}
+        {{ render_field(form.password, class="form-control" ) }}
+        {{ render_field(form.confirm, class="form-control" ) }}
+        <button class="btn btn-primary" type="submit">kayıt ol</button>
+        
+
+        
+
+    <p><input type=submit value=Register></p>
+
+    </form>
+
+    
+    {% endblock kayit %}
+
+    
+
+
+
+
+</body>
+</html>
+
+
+
+
